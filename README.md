@@ -1,3 +1,7 @@
 # autoencoder
 
-Here I generate a toy dataset which exhibits a gaussian trend that basically reflect the characteristics of solar radiation in a sunny day with clear sky condition. The power generation in the PV system will be proportional to the radiation fall on the PV panel. As a result of it PV system power generation will follow the gaussian trend. But due to the presence of some fault the experimental power will not follow the same trend (presented by the measured power). 
+Here I generate a toy dataset which exhibits a Gaussian trend that basically reflects the characteristics of solar radiation on a sunny day with clear sky conditions. The power generation in the PV system will be proportional to the radiation falling on the PV panel. As a result, the PV system's power generation will follow a Gaussian trend (indicated by the theoretical power). 
+
+However, due to the presence of some faults, the experimental power will not follow the same trend (as indicated by the measured power).
+
+In this exercise, I detect anomalies or faults using an autoencoder model applied to the measured power data points. 
