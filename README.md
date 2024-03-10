@@ -5,3 +5,7 @@ Here I generate a toy dataset which exhibits a Gaussian trend that basically ref
 However, due to the presence of some faults, the experimental power will not follow the same trend (as indicated by the measured power).
 
 In this exercise, I detect anomalies or faults using an autoencoder model applied to the measured power data points. 
+
+Note: The autoencoder model for anomaly detection can be expanded to handle multi-feature and more complex patterns in real-world datasets, such as real PV panel datasets.
+
+
